@@ -1,5 +1,7 @@
 # Vertical-bridge-simulator
 Vertical bridge simulator that opens and closes automatically when ship passes under it. Traffic light vehicle management system
+
+
 User manual
 
 press a : start and stop animation 
