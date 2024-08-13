@@ -5,9 +5,13 @@ Vertical bridge simulator that opens and closes automatically when ship passes u
 User manual
 
 press a : start and stop animation 
+
 press d: night mode 
+
 press D: day mode 
+
 press w: wired mode 
+
 move boat front : q move boat back : Q 
 move ship front : i move boat back : m 
 move ship right: l move ship left: j 
