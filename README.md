@@ -41,5 +41,11 @@ zoom in: - zoom out: +
 move camera right: p move camera left: o 
 
 move camera up: u move camera left: y 
+
 reference point directions 
+
 reference point X directions: (for positive):P for (neg):O reference point Y directions: (for positive):Y for (neg):U reference point Z directions: (for positive):r for (neg):t
+
+
+video Link: https://drive.google.com/file/d/1pwgJGdcyfXJVYrbuJ8ycufdqwl5YfFFW/view?usp=sharing
+
