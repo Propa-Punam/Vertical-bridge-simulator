@@ -1,51 +1,140 @@
-# Vertical-bridge-simulator
-Vertical bridge simulator that opens and closes automatically when ship passes under it. Traffic light vehicle management system
+# Vertical Lift Bridge Simulator with Traffic and Lighting Control
 
+This project simulates a vertical lift bridge that automatically opens and closes when a ship passes underneath. It also includes a traffic management system for vehicles with stoplights and multiple lighting modes.
 
-User manual
+![Simulator Screenshot](path_to_screenshot.png)  <!-- Replace this with an actual screenshot path if available -->
 
-press a : start and stop animation 
+## Features
 
-press d: night mode 
+- **Automated Vertical Lift Bridge:** The bridge opens and closes when ships pass.
+- **Traffic Light Management System:** Controls vehicle movement with stoplights.
+- **Day/Night Modes:** Switch between day and night environments.
+- **Custom Lighting Controls:** Control multiple lights, including ambient, diffuse, and specular lighting.
+- **Camera and Viewpoint Control:** Allows camera zoom, movement, and focus on specific objects like vehicles and ships.
 
-press D: day mode 
+## Project Structure
+```
+VERTICAL BRIDGE/
 
-press w: wired mode 
+│   │
+│   ├── assets/              # Texture and image resources
+│   │   ├── bus.bmp
+│   │   ├── car_base.bmp
+│   │   ├── car_base.jpg
+│   │   ├── car_top.bmp
+│   │   ├── funnel1.bmp
+│   │   ├── iron.bmp
+│   │   ├── piller.bmp
+│   │   ├── road.bmp
+│   │   ├── sea.bmp
+│   │   ├── sky.bmp
+│   │   ├── top.bmp
+│   │   ├── upper_base.bmp
+│   │   ├── wheel.bmp
+│   │   ├── window.bmp
+│   │   └── wood.bmp
+│   │
+│   ├── include/            # Header files
+│   │   └── BmpLoader.h
+│   │
+│   ├── obj/               
+│   │   └── Debug/
+│   │       └── 160710_Vertical lift bridge with tr...
+│   │
+│   ├── project_files/      
+│   │   ├── 160710_Vertical lift bridge with tr...
+│   │   ├── 160710_Vertical lift bridge with tr...
+│   │   ├── 160710.layout
+│   │   ├── 160710.depend
+│   │   ├── Texture.layout
+│   │   └── Texture.depend
+│   │
+│   ├── src/               # Source files
+│   │   ├── BmpLoader.cpp
+│   │   └── main.cpp
+│   │
+│   └── README.md
+```
 
-move boat front : q move boat back : Q 
+## Controls
 
-move ship front : i move boat back : m 
+### Animation Controls
+- **Start/Stop Animation:** Press `a`
+- **Night Mode:** Press `d`
+- **Day Mode:** Press `D`
+- **Wired Mode:** Press `w`
 
-move ship right: l move ship left: j 
+### Vehicle Controls
+#### Boat Controls
+- **Forward:** Press `q`
+- **Backward:** Press `Q`
 
-focus ship: z reset: Z 
+#### Ship Controls
+- **Forward:** Press `i`
+- **Backward:** Press `m`
+- **Right:** Press `l`
+- **Left:** Press `j`
 
-focus vehicles : x reset: X 
+### Focus Controls
+- **Focus on Ship:** Press `z` (Reset: `Z`)
+- **Focus on Vehicles:** Press `x` (Reset: `X`)
+- **Focus on Boat:** Press `c` (Reset: `X`)
 
-focus boat: c reset: X 
+### Lighting System
+#### Main Lights
+- **Light 1:** Press `1`
+- **Light 2:** Press `2`
+- **Lights 3 & 4:** Press `]`
 
-light 1 on-off : 1 light 2 on-off: 2 
+#### Light 1 Properties
+- **Ambient:** Press `3`
+- **Diffuse:** Press `4`
+- **Specular:** Press `5`
 
-light 1 ambient on-off : 3 light 1 diffuse on-off:4 light 1 specular on-off: 5 light 2 ambient on-off : 6 light 2 diffuse on-off:7 light 2 specular on-off: 8 light 3 and 4 on-off : ] 
+#### Light 2 Properties
+- **Ambient:** Press `6`
+- **Diffuse:** Press `7`
+- **Specular:** Press `8`
 
-light 3 and 4 ambient on-off : 9 
+#### Lights 3 & 4 Properties
+- **Ambient:** Press `9`
+- **Diffuse:** Press `0`
+- **Specular:** Press `[`
 
-light 3 and 4 diffuse on-off:0 
+### Camera Controls
+#### Movement
+- **Zoom:** Press `-` (in) or `+` (out)
+- **Right/Left:** Press `p`/`o`
+- **Up/Down:** Press `u`/`y`
 
-light 3 and 4 specular on-off: [ 
+#### Reference Point Adjustment
+- **X-axis:** Press `P` (positive) or `O` (negative)
+- **Y-axis:** Press `Y` (positive) or `U` (negative)
+- **Z-axis:** Press `r` (positive) or `t` (negative)
 
-Eye position 
+## Installation
 
-zoom in: - zoom out: + 
+### Prerequisites
+- OpenGL
+- GLUT
 
-move camera right: p move camera left: o 
+### Build Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/VerticalBridgeSimulator.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd VerticalBridgeSimulator
+   ```
+3. Open the project in your preferred IDE (e.g., Code::Blocks) or build using the command line
+4. Build and run the executable
 
-move camera up: u move camera left: y 
+## User Manual
+For detailed usage instructions, refer to the Controls section above. Each control is categorized based on its functionality for easy reference.
 
-reference point directions 
+## Video Demo
+Watch our [Vertical Bridge Simulator Demo](link_to_video) to see the project in action.
 
-reference point X directions: (for positive):P for (neg):O reference point Y directions: (for positive):Y for (neg):U reference point Z directions: (for positive):r for (neg):t
-
-
-video Link: https://drive.google.com/file/d/1pwgJGdcyfXJVYrbuJ8ycufdqwl5YfFFW/view?usp=sharing
-
+## License
+[Include your license information here]
