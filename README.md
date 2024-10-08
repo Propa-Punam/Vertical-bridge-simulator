@@ -2,7 +2,7 @@
 
 This project simulates a vertical lift bridge that automatically opens and closes when a ship passes underneath. It also includes a traffic management system for vehicles with stoplights and multiple lighting modes.
 
-![Simulator Screenshot](path_to_screenshot.png)  <!-- Replace this with an actual screenshot path if available -->
+![Simulator Screenshot](./assets/s.png)  <!-- Replace this with an actual screenshot path if available -->
 
 ## Features
 
@@ -134,7 +134,7 @@ VERTICAL BRIDGE/
 For detailed usage instructions, refer to the Controls section above. Each control is categorized based on its functionality for easy reference.
 
 ## Video Demo
-Watch our [Vertical Bridge Simulator Demo](link_to_video) to see the project in action.
+Watch our [Vertical Bridge Simulator Demo](https://drive.google.com/file/d/1pwgJGdcyfXJVYrbuJ8ycufdqwl5YfFFW/view?usp=sharing) to see the project in action.
 
 ## License
 [Include your license information here]
