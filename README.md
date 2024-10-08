@@ -137,4 +137,4 @@ For detailed usage instructions, refer to the Controls section above. Each contr
 Watch our [Vertical Bridge Simulator Demo](https://drive.google.com/file/d/1pwgJGdcyfXJVYrbuJ8ycufdqwl5YfFFW/view?usp=sharing) to see the project in action.
 
 ## License
-[Include your license information here]
+Apache License Version 2.0
